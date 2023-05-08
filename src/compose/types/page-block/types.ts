@@ -28,4 +28,18 @@ export class Button {
   }
 }
 
+export class Step {
+  public schema?: string = undefined
+
+  public schemaRaw?: string = undefined
+
+  public label?: string = undefined
+
+  public slot?: string = undefined
+
+  constructor (b: Partial<Step>) {
+    Apply(this, b, String, 'schema', 'schemaRaw', 'label')
+  }
+}
+
 export type PageBlockWrap = 'Plain' | 'Card'

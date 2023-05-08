@@ -1,5 +1,6 @@
 import { PageBlock, Registry } from './base'
 export { PageBlockAutomation } from './automation'
+export { PageBlockSchemaFormGenerator } from './schema-form-generator'
 export { PageBlockChart } from './chart'
 export { PageBlockContent } from './content'
 export { PageBlockFile } from './file'
